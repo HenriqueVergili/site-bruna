@@ -1,7 +1,8 @@
 // pages/index.tsx
 import React from 'react';
-import Header from '../app/components/header';
+import Header from './components/header';
 import Footer from './components/footer';
+
 
 const HomePage: React.FC = () => {
   return (
@@ -39,20 +40,6 @@ const HomePage: React.FC = () => {
               sit amet mauris porta hendrerit. Vestibulum consectetur aliquet tellus. Aliquam ac urna est. Nulla facilisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
               Praesent at nunc vel ex euismod porttitor eu vel ante. Sed sit amet risus vitae est vehicula bibendum sed nec quam..</p>
               <p><a href="#projetos" className="hover:underline font-bold text-1xl text-terra focus:underline">Saiba mais</a></p>
-          </div>
-        </div>
-        <div className='bg-terra flex  justify-between items-center p-40'>
-          <div>
-            <p className='text-black text-2xl font-medium'>não fique de fora</p>
-            <p className='text-white text-6xl font-bold'>Envie uma mensagem</p>
-          </div>
-          <div className='w-[400px]'>
-              <label className='block text-sm font-medium leading-6 text-white'>Seu Nome</label>
-              <input type="text"
-                     className="bg-transparent border-b-2 border-white text-white w-full focus:outline-none"></input>
-              <label className='block text-sm font-medium leading-6 text-white mt-16'>Seu email</label>
-              <input type="text"
-                     className="bg-transparent border-b-2 border-white w-full text-white focus:outline-none"></input>
           </div>
         </div>
         <div>

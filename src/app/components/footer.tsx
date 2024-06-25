@@ -5,6 +5,20 @@ import WaveSVG from './onda';
 const Footer: React.FC = () => {
   return (
     <>
+            <div className='bg-terra flex  justify-between items-center p-40'>
+          <div>
+            <p className='text-black text-2xl font-medium'>não fique de fora</p>
+            <p className='text-white text-6xl font-bold'>Envie uma mensagem</p>
+          </div>
+          <div className='w-[400px]'>
+              <label className='block text-sm font-medium leading-6 text-white'>Seu Nome</label>
+              <input type="text"
+                     className="bg-transparent border-b-2 border-white text-white w-full focus:outline-none"></input>
+              <label className='block text-sm font-medium leading-6 text-white mt-16'>Seu email</label>
+              <input type="text"
+                     className="bg-transparent border-b-2 border-white w-full text-white focus:outline-none"></input>
+          </div>
+        </div>
     <footer className="bg-white flex justify-between items-center p-32">
       <div>
         <p className="text-xl text-terra font-medium mb-2 ">Endereço</p>
