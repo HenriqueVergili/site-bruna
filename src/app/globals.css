@@ -33,3 +33,7 @@ body {
   font-family: "Fonte1";
   src: url("/public/Fonte1.ttf") format('ttf');
 }
+
+.active-link {
+  @apply text-terra underline;
+}
