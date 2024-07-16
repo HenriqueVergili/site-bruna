@@ -11,9 +11,9 @@ const Header: React.FC = () => {
         </div>
       <nav>
         <ul className="text-2xl mr-24 flex space-x-4">
-        <li><a href='/sobre' className="hover:text-terra text-black hover:underline ">Sobre</a></li>
+        <li><a href='/equipe' className="hover:text-terra text-black hover:underline ">Equipe</a></li>
         <li><a href="/projetos" className="hover:text-terra text-black hover:underline active:text-terra focus:text-terra focus:underline">Projetos</a></li>
-        <li><a href="/equipe" className="hover:text-terra text-black hover:underline active:text-terra focus:text-terra focus:underline">Equipe</a></li>
+        <li><a href="/processo" className="hover:text-terra text-black hover:underline active:text-terra focus:text-terra focus:underline">Processo</a></li>
         <li><a href="/contato" className="hover:text-terra text-black hover:underline active:text-terra focus:text-terra focus:underline">Contato</a></li>
         </ul>
       </nav>
